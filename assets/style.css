@@ -258,7 +258,26 @@ body {
     max-height: 100%;
 }
 
+@media (max-width: 728px){
+    body{
+        font-size: 14px;
+    }
 
+    .section-2{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .content-2{
+        width:100%;
+    }
+    .text_about{
+        width:100%;
+    }
+    .top-skills{
+        width:100%;
+    }
+}
 
 
 
