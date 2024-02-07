@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function(){
+if(window.innerWidth>768){
     const projects=document.querySelectorAll('.project');
     projects.forEach(project=>{
         project.addEventListener('mouseenter', function(){
@@ -29,4 +30,5 @@ document.addEventListener('DOMContentLoaded', function(){
             this.classList.remove('hovered');
         });
     });
+}
 });

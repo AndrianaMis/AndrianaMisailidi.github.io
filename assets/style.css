@@ -208,7 +208,6 @@ body {
 
 }
 .section-3 h2{
-
     text-align: center;
     margin:0;
 }
@@ -258,12 +257,22 @@ body {
     max-height: 100%;
 }
 
+.notover{
+    position: fixed;
+    text-align: center;
+    color: rgb(147, 145, 145);
+    bottom:0;
+
+}
+
 @media (max-width: 728px){
     body{
         font-size: 14px;
     }
+  
 
     .section-2{
+
         display:flex;
         flex-direction: column;
 
@@ -276,6 +285,22 @@ body {
     }
     .top-skills{
         width:100%;
+    }
+    .section-3 h2{
+        margin-top: 80px;
+    }
+    .projects {
+        flex-direction: column;
+        align-items: center; 
+    }
+   
+    .project {
+        width: 90%; 
+        margin: 10px auto;
+    }
+    .project .descr , .project .tech{
+        max-height: 100%;
+        transform: none;
     }
 }
 
